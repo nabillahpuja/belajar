@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata mahasiswa</title>
+</head>
+<body style="font-family: 'Times New Roman', Times, serif; margin: 20px;">
+    
+    <!-- BAGIAN HEADER -->
+    <div style="display: flex; align-items: center; border-bottom: 4px solid navy; padding-bottom: 10px;">
+        <div style="width: 15%; text-align: left;">
+            <img src="source/logo unindra.png" height="90">
+        </div>
+        <div style="width: 70%; text-align: center;">
+            <h1 style="font-size: 18pt; margin: 5px 0;">UNIVERSITAS INDRAPRASTA PGRI</h1>
+            <h1 style="font-size: 18pt; margin: 5px 0;">(UNINDRA)</h1>
+            <p style="font-size: 11pt; margin: 5px 0;"><i>Jl. Nangka No.58 Tanjung Barat - Jaksel</i></p>
+        </div>
+        <div style="width: 15%;"></div>
+    </div>
+
+    <!-- JUDUL BIODATA -->
+    <h3 style="text-align: center; margin-top: 20px;">BIODATA MAHASISWA</h3>
+
+    <!-- FORM -->
+    <form style="width: 500px; margin: 0 auto;">
+        
+        <!-- NAMA -->
+        <label for="nama" style="display: inline-block; width: 130px; font-weight: bold;">NAMA</label>
+        <span style="font-weight: bold;">:</span>
+        <input type="text" id="nama" name="nama" style="width: 300px; padding: 4px; border: 1px solid black;"><br><br>
+        
+        <!-- ALAMAT -->
+        <label for="alamat" style="display: inline-block; width: 130px; font-weight: bold; vertical-align: top;">ALAMAT</label>
+        <span style="font-weight: bold; vertical-align: top;">:</span>
+        <textarea id="alamat" name="alamat" rows="4" style="width: 300px; padding: 4px; border: 1px solid black;"></textarea><br><br>
+        
+        <!-- TANGGAL LAHIR -->
+        <label for="birthday" style="display: inline-block; width: 130px; font-weight: bold;">TANGGAL LAHIR</label>
+        <span style="font-weight: bold;">:</span>
+        <input type="date" id="birthday" name="birthday" style="padding: 4px; border: 1px solid black;"><br><br>
+        
+        <!-- TELEPHONE -->
+        <label for="telephone" style="display: inline-block; width: 130px; font-weight: bold;">TELP</label>
+        <span style="font-weight: bold;">:</span>
+        <input type="tel" id="telephone" name="telephone" style="width: 300px; padding: 4px; border: 1px solid black;"><br><br>
+        
+        <!-- EMAIL -->
+        <label for="email" style="display: inline-block; width: 130px; font-weight: bold;">EMAIL</label>
+        <span style="font-weight: bold;">:</span>
+        <input type="email" id="email" name="email" style="width: 300px; padding: 4px; border: 1px solid black;"><br><br>
+        
+        <!-- TOMBOL -->
+        <div style="margin-left: 145px;">
+            <input type="submit" name="submit" value="SIMPAN" style="padding: 5px 15px; border: 1px solid black; background-color: #f0f0f0; cursor: pointer;">
+            <input type="reset" name="reset" value="BATAL" style="padding: 5px 15px; border: 1px solid black; background-color: #f0f0f0; cursor: pointer;">
+        </div>
+    </form>
+
+</body>
+</html>
