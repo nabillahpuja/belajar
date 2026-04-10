@@ -25,9 +25,6 @@ if ($bmi < 18.5) {
 } else {
     $kategori = "obesitas";
 }
-
-$tahun_sekarang = date('Y');
-$usia = $tahun_sekarang - TAHUN_LAHIR;
 ?>
 
 <!DOCTYPE html>
@@ -77,7 +74,6 @@ $usia = $tahun_sekarang - TAHUN_LAHIR;
         <tr><td>Nama</td><td><?= $nama ?></td></tr>
         <tr><td>NPM</td><td><?= $npm ?></td></tr>
         <tr><td>Kelas</td><td><?= $kelas ?></td></tr>
-        <tr><td>Usia</td><td><?= $usia ?> tahun</td></tr>
     </table>
 
     <h2>Data Konstan</h2>
